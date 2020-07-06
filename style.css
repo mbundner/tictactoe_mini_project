@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.board {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tile {
+    background-color: aqua;
+}
