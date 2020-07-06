@@ -13,9 +13,19 @@ body {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
-    width: 100%
+    width: 100%;
+    background-color: black;
+    margin-top: 25px;
+
 }
 
-.tile {
-    background-color: aqua;
+.squares {
+    background-color: green;
+    border-bottom: solid black;
+    border-left: solid black;
+    cursor: pointer;
+}
+.button {
+    margin-top: 25px;
+    cursor: pointer;
 }
