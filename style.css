@@ -20,6 +20,9 @@ body {
 }
 
 .squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: green;
     border-bottom: solid black;
     border-left: solid black;
@@ -28,4 +31,15 @@ body {
 .button {
     margin-top: 25px;
     cursor: pointer;
+}
+
+.X::before {
+    content: "X";
+    font-size: 300px;
+    font-weight: bold;
+}
+.O::before {
+    content: "O";
+    font-size: 300px;
+    font-weight: bold;
 }
